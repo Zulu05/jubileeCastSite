@@ -1,0 +1,149 @@
+/* Home Component Styles */
+.home-container {
+  top: 0%;
+  width: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+
+}
+
+/* .Home-header{
+    border: 1px solid red;
+  border-style: solid;
+}    */
+.logo{
+    height: 60px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+}
+.banner {
+    background-image: url('../assets/homeBanner.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    position: relative;
+    
+    /* border-color: cornflowerblue;
+    border-style: solid;
+    border-width: 2px; */
+  }
+
+  /* Lighter lines on top and bottom of banner */
+  .banner::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.3);
+    z-index: 1;
+  }
+
+  .banner::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.3);
+    z-index: 1;
+  }
+  .banner-content{
+    background-color: transparent;
+  }
+
+  .scroll-smooth {
+    scroll-behavior: smooth;
+  }
+  /* Hide scrollbar but keep functionality */
+  .overflow-x-hidden {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  .overflow-x-hidden::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Ensure cards don't shrink */
+  .flex-shrink-0 {
+    flex-shrink: 0;
+  }
+
+  /* Hide scrollbar for lists */
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;  /* Safari and Chrome */
+}
+/* 
+  .lowerBanner-content{
+border-color: yellow;
+border-style: solid;
+} */
+/* Header Section */
+/*
+
+
+.header-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo h1 {
+  color: white;
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 2rem;
+}
+
+.nav-links li {
+  margin: 0;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.nav-links a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  transform: translateY(-2px);
+}
+  */
